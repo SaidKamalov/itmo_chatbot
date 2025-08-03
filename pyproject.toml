@@ -8,6 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.13"
 python-telegram-bot = "^22.3"
+requests = "^2.32.4"
+beautifulsoup4 = "^4.13.4"
+selenium = "^4.34.2"
 
 
 [build-system]
