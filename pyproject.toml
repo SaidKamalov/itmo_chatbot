@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "itmo-chatbot"
+version = "0.1.0"
+description = "chat bot for entry MS contest"
+authors = ["Said Kamalov <s.kamalovwork@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+python-telegram-bot = "^22.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
